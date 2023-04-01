@@ -1,0 +1,27 @@
+*{
+    margin: 0 auto;
+    background-color: rgb(26, 20, 20);
+    color : white;
+}
+#tasks{
+    /* margin: 2rem; */
+    display: flex;
+    flex-direction: column;
+}
+#new-task-input{
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+#new-task-submit{
+    margin: 0 auto;
+    padding: 0.5rem;
+}
+
+.task-list #tasks{
+    justify-content: space-between;
+    padding: .5rem;
+}
+
+header{
+    margin: auto;
+}
